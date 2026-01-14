@@ -10,4 +10,11 @@
   font-optical-sizing: auto;
 }
 
-header { background-color: aquamarine;}
+nav { width: 1600px; height: 92px;
+    background-color: antiquewhite;
+    padding-top: 10px;  
+   border: 1px solid red;
+   display: flex;
+   justify-content: space-between;
+
+}
