@@ -1,14 +1,27 @@
 
 
+/* Universal Selector */
+
 * { 
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
+
+ /* Shared Style with others */
+
 .inter-uniquifier {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+.logo{
+    width: 139px;
+    height: 60px;
+    
+}
+
+/* Main Style */
 
 nav { width: 1600px; height: 92px;
     background-color: antiquewhite;
@@ -16,5 +29,34 @@ nav { width: 1600px; height: 92px;
    border: 1px solid red;
    display: flex;
    justify-content: space-between;
+   align-items: center;
+  
+}
+
+ul,.menu {
+
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+ text-align: center;
+}
+
+ul, li, a { 
+    text-decoration: none;
+}
+
+
+.btn{
+    background-color: #469165;
+    margin-right: 150px;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+
 
 }
+
+
+
