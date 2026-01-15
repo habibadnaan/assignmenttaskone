@@ -61,5 +61,16 @@ section{
     background-image:url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     padding: 140px 120px;
-    
+    background-position: fixed;
+    text-align: center;  
+}
+
+ .header-ponit{
+    background-color: white;
+    display: inline-block;
+    padding: 8px 12px;
+    color:#469165;
+    font-weight: 500;
+    border: none;
+    border-radius: 1000px;
 }
