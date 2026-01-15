@@ -59,4 +59,7 @@ ul, li, a {
 
 section{
     background-image:url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    padding: 140px 120px;
+    
 }
