@@ -75,6 +75,7 @@ section{
     border-radius: 1000px;
 }
 
+
 .whitetxt{
 
     color:white
@@ -88,4 +89,34 @@ section{
 .ptext{
 
     color:white
+}
+
+.primarybtn01{ 
+
+    background-color:#469165;
+    padding: 12px 16px;
+    border: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: white;
+}
+
+.trasferenbtn{
+    background: none;
+    padding: 12px 16px ;
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    gap:5px;
+}
+
+.middelframe {
+
+    background-color: white;
+    display: inline-block;
+    width: 1600px;
+    height: 152px;
+    padding-top: 50px;
+    text-align: center;
+    border: 1px solid;
 }
