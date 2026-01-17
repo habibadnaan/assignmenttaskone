@@ -24,9 +24,9 @@
 /* Main Style */
 
 nav { width: 1600px; height: 92px;
-    background-color: antiquewhite;
+    background-color: #FFFFFF;
     padding-top: 10px;  
-   border: 1px solid red;
+   border: none;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -43,6 +43,8 @@ ul,.menu {
 
 ul, li, a { 
     text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
 
 
@@ -169,7 +171,7 @@ main{
     padding: 60px;
     border: none;
     width: 1600px;
-    height: 420px;
+    height: 520px;
     gap: 40px;
     
 
@@ -212,3 +214,21 @@ main{
     display: flex;
     gap: 6px;
 }
+
+.early-access{
+
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    border: 1px solid green;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    width: 1360px;
+    height: 384px;
+    padding: 150px 80px;
+    gap: 24px;
+    box-sizing: border-box;
+
+    
+}
+
