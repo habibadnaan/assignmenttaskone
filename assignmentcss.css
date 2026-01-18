@@ -276,7 +276,19 @@ main{
         border-radius: 1000px;
         padding: 3px;
 
+}
 
 
+.copywrite{
+    background-color:none;
+    justify-items: center;
+    color: green;
+    margin-bottom: -150px ;
 
+}
+
+.copywright-txt{
+
+    color: white;
+    display: inline;
 }
