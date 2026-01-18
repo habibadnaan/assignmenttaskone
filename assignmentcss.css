@@ -254,4 +254,29 @@ main{
     padding: 120px 120px 30px;
     margin: 0px auto;
     margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links{
+
+    color: white;
+    font-weight: 500px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.social-icon{
+
+        background-color: white;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        border-radius: 1000px;
+        padding: 3px;
+
+
+
+
 }
