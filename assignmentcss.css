@@ -276,11 +276,21 @@ main{
     justify-content: space-between;
     padding: 50px 30px ;
     border-bottom: 0.5px dotted white;
-    border-width: 10%;
+    border-width: 5%;
     width: 1360px;
     height: 64px;
     justify-items: center;
     padding: 100px;
     margin: 0 auto;
     
+}
+
+.copyright-text{
+    
+
+    width: 1300px;
+    height: 54px;
+    color: white;
+    padding: 50px 50px; 
+    text-align: center;
 }
